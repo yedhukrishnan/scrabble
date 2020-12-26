@@ -1,0 +1,33 @@
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  height: 30px;
+  min-width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ddfff0;
+  color: #6b6262;
+}
+
+.tw {
+  background-color: #f57eb3;
+}
+
+.dw {
+  background-color: #eaabab;
+}
+
+.tl {
+  background-color: #a5a5f5;
+}
+
+.dl {
+  background-color: #c7d6f3;
+}
+
+.tile {
+  background-color: #ab4830;
+  color: white;
+}
