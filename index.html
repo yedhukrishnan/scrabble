@@ -5,11 +5,21 @@
     <title>Scrabble</title>
     <meta name="description" content="Scrabble" />
     <meta name="author" content="Yedhu krishnan" />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="scrabble-board"></div>
+    <br />
+    <div class="my-tiles"></div>
+    <br />
+    <button type="button" onclick="submit()">Submit</button>
+    <button type="button" onclick="resetTurn()">Reset</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
     <script src="js/constants.js"></script>
